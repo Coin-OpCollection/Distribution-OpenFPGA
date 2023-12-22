@@ -27,7 +27,7 @@ This repository contains distribution files for FPGA implementations written by 
 
 <table><tr><th> <b>Tatsujin Oh<br>( Truxton II )</b> <br><br> <p align="center"><img width="120" height="160" src="https://github.com/Coin-OpCollection/Distribution-OpenFPGA/assets/32810066/5750cae2-a60e-47ad-b834-8fab45c00ead"></th><th> <b>Snow Brothers 2:<br>Otenki Paradaisu<br></b> <br> <p align="center"><img width="120" height="160" src="https://github.com/Coin-OpCollection/Distribution-OpenFPGA/assets/32810066/f8a2532f-95a9-44e7-973c-f37ca7d5c09e"></th><th> <b>Whoopee!!<br>( Pipi & Bibi's ) </b> <br><br> <p align="center"><img width="120" height="160" src="https://github.com/Coin-OpCollection/Distribution-OpenFPGA/assets/32810066/c0da7ba7-6d26-4f0a-a40d-ad33d8f45d7c"></th></tr></table>
 
-# Installation
+# ROM Installation
 
 <br>
 
