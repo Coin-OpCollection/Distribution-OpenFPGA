@@ -1,0 +1,206 @@
+{
+    "interact": {
+      "magic": "APF_VER_1",
+      "variables": [
+        {
+          "name": "Reset Core",
+          "id": 0,
+          "type": "action",
+          "enabled": true,
+          "address": "0xFD000000",
+          "value": 1,
+          "mask": "0xFFFFFFFE"
+        },
+        {
+          "name": "Write Protect NV",
+          "id": 48,
+          "type": "check",
+          "persist":false,
+          "defaultval": 0,
+          "enabled": true,
+          "address": "0xFB000000",
+          "value": "0x100",
+          "value_off": "0x0",
+          "mask": "0xFFFFFEFF"
+        },
+        {
+          "id": 1,
+          "name": "----------------",
+          "type": "action",
+          "enabled": false
+        },
+        {
+          "name": "Audio Mix",
+          "id": 43,
+          "type": "list",
+          "enabled": true,
+          "persist": true,
+          "address": "0xFB000008",
+          "defaultval": 1,
+          "mask": "0xFFFFFFBF",
+          "options": [
+            {
+              "value": "0x0",
+              "name": "Mono"
+            },
+            {
+              "value": "0x40",
+              "name": "Stereo"
+            }
+          ]
+        },
+        {
+          "name": "Control Mapping",
+          "id": 41,
+          "type": "list",
+          "enabled": true,
+          "persist": true,
+          "address": "0xFB000008",
+          "defaultval": 0,
+          "mask": "0xFFFFFFFC",
+          "options": [
+            {
+              "value": "0x0",
+              "name": "Player 1"
+            },
+            {
+              "value": "0x1",
+              "name": "Player 2"
+            },
+            {
+              "value": "0x2",
+              "name": "Player 3"
+            },
+            {
+              "value": "0x3",
+              "name": "Player 4"
+            }
+          ]
+        },
+        {
+          "name": "Synced Controls",
+          "id": 42,
+          "type": "list",
+          "enabled": true,
+          "persist": true,
+          "address": "0xFB000008",
+          "defaultval": 0,
+          "mask": "0xFFFFFFF3",
+          "options": [
+            {
+              "value": "0x0",
+              "name": "1 Player"
+            },
+            {
+              "value": "0x4",
+              "name": "2 Player"
+            },
+            {
+              "value": "0x8",
+              "name": "3 Player"
+            },
+            {
+              "value": "0xC",
+              "name": "4 Player"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "----------------",
+          "type": "action",
+          "enabled": false
+        },
+        {
+          "name": "Skip Post-Check",
+          "id": 44,
+          "type": "check",
+          "enabled": true,
+          "persist": true,
+          "address": "0xFB000000",
+          "defaultval": 0,
+          "value": "0x80",
+          "value_off": "0x0",
+          "mask": "0xFFFFFF7F"
+        },
+        {
+          "name": "Invincibility",
+          "id": 46,
+          "type": "check",
+          "enabled": true,
+          "persist": true,
+          "address": "0xFB000000",
+          "defaultval": 0,
+          "value": "0x20",
+          "value_off": "0x0",
+          "mask": "0xFFFFFFDF"
+        },
+        {
+          "name": "One-Hit Kill",
+          "id": 47,
+          "type": "check",
+          "enabled": true,
+          "persist": true,
+          "address": "0xFB000000",
+          "defaultval": 0,
+          "value": "0x40",
+          "value_off": "0x0",
+          "mask": "0xFFFFFFBF"
+        },
+        {
+          "name": "Select Stage",
+          "id": 45,
+          "type": "list",
+          "enabled": true,
+          "persist": true,
+          "address": "0xFB000000",
+          "defaultval": 0,
+          "mask": "0xFFFFFFE1",
+          "options": [
+            {
+              "value": "0x0",
+              "name": "Big Apple, 3 A.M."
+            },
+            {
+              "value": "0x2",
+              "name": "Alleycat Blues"
+            },
+            {
+              "value": "0x4",
+              "name": "Sewer Surfin'"
+            },
+            {
+              "value": "0x6",
+              "name": "Prehistoric Turtlesaurus"
+            },
+            {
+              "value": "0x8",
+              "name": "Skull and Crossbones"
+            },
+            {
+              "value": "0xA",
+              "name": "Bury My Shell at Wounded Knee"
+            },
+            {
+              "value": "0xC",
+              "name": "Neon Night Riders"
+            },
+            {
+              "value": "0xE",
+              "name": "Starbase: Where No Turtle Has Gone Before"
+            },
+            {
+              "value": "0x10",
+              "name": "Technodrome: The Final Shell Shock"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "----------------",
+          "type": "action",
+          "enabled": false
+        }
+      ]
+    }
+  }
