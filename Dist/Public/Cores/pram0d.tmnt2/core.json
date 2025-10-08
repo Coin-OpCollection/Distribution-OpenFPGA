@@ -2,12 +2,12 @@
     "core": {
         "magic": "APF_VER_1",
         "metadata": {
-            "platform_ids": ["tmnt2","coinopkey"],
+            "platform_ids": ["tmnt2"],
             "shortname": "tmnt2",
             "description": "TMNT: Turtles In Time",
             "author": "pram0d",
             "url": "https://coinopcollection.org",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "date_release": "2025-10-07"
         },
         "framework": {
