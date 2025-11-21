@@ -3,14 +3,14 @@
     "magic": "APF_VER_1",
     "metadata": {
       "platform_ids": [
-        "demonwld"
+        "zerowing"
       ],
-      "shortname": "demonwld",
-      "description": "Demon's World - Toaplan V1",
+      "shortname": "zerowing",
+      "description": "Zero Wing - Toaplan V1",
       "author": "coc",
       "url": "https://coinopcollection.org",
-      "version": "1.0.1",
-      "date_release": "2025-10-31"
+      "version": "1.0.0",
+      "date_release": "2025-11-21"
     },
     "framework": {
       "target_product": "Analogue Pocket",
@@ -27,8 +27,8 @@
     },
     "cores": [
       {
-        "name": "demonwld",
-        "filename": "demonwld.br",
+        "name": "zerowing",
+        "filename": "zerowing.br",
         "id": 0
       }
     ]
