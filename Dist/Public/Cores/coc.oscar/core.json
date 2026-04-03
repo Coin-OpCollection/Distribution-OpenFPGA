@@ -3,14 +3,14 @@
     "magic": "APF_VER_1",
     "metadata": {
       "platform_ids": [
-        "tumblep"
+        "oscar"
       ],
-      "shortname": "tumblep",
-      "description": "Tumble Pop FPGA Core",
+      "shortname": "oscar",
+      "description": "Psycho-Nics Oscar FPGA Core",
       "author": "coc",
       "url": "https://coinopcollection.org",
-      "version": "1.0.1",
-      "date_release": "2026-04-01"
+      "version": "1.0.0",
+      "date_release": "2026-04-02"
     },
     "framework": {
       "target_product": "Analogue Pocket",
@@ -27,8 +27,8 @@
     },
     "cores": [
       {
-        "name": "TUMBLEP",
-        "filename": "tumblep.br",
+        "name": "OSCAR",
+        "filename": "oscar.br",
         "id": 0
       }
     ]

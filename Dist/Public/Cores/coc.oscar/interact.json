@@ -1,0 +1,368 @@
+{
+  "interact": {
+    "magic": "APF_VER_1",
+    "variables": [
+      {
+        "id": 10,
+        "name": "Soft Reset",
+        "type": "action",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfd000000",
+        "mask": "0xfffffffe",
+        "value": "0x1"
+      },
+      {
+        "id": 11,
+        "name": "Options>",
+        "type": "action",
+        "enabled": false
+      },
+      {
+        "id": 12,
+        "name": "Auto-Fire",
+        "type": "list",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xfffffff0",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "Off"
+          },
+          {
+            "value": "0x1",
+            "name": "A - Fastest"
+          },
+          {
+            "value": "0x2",
+            "name": "A - Fast"
+          },
+          {
+            "value": "0x3",
+            "name": "A - Medium"
+          },
+          {
+            "value": "0x4",
+            "name": "A - Slow"
+          },
+          {
+            "value": "0x5",
+            "name": "B - Fastest"
+          },
+          {
+            "value": "0x6",
+            "name": "B - Fast"
+          },
+          {
+            "value": "0x7",
+            "name": "B - Medium"
+          },
+          {
+            "value": "0x8",
+            "name": "B - Slow"
+          },
+          {
+            "value": "0x9",
+            "name": "A+B - Fastest"
+          },
+          {
+            "value": "0xa",
+            "name": "A+B - Fast"
+          },
+          {
+            "value": "0xb",
+            "name": "A+B - Medium"
+          },
+          {
+            "value": "0xc",
+            "name": "A+B - Slow"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Cheats>",
+        "type": "action",
+        "enabled": false
+      },
+      {
+        "id": 14,
+        "name": "Infinite Time",
+        "type": "check",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xffffffef",
+        "value": "0x10",
+        "value_off": "0x0"
+      },
+      {
+        "id": 17,
+        "name": "Invincibility",
+        "type": "check",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xffffff7f",
+        "value": "0x80",
+        "value_off": "0x0"
+      },
+      {
+        "id": 18,
+        "name": "Max Jump Power",
+        "type": "check",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xfffffeff",
+        "value": "0x100",
+        "value_off": "0x0"
+      },
+      {
+        "id": 19,
+        "name": "Explosive Weapon",
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xfffff1ff",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "None"
+          },
+          {
+            "value": "0x200",
+            "name": "Grenade"
+          },
+          {
+            "value": "0x400",
+            "name": "Missile"
+          },
+          {
+            "value": "0x600",
+            "name": "2 Grenades"
+          },
+          {
+            "value": "0x800",
+            "name": "Grenade+Missile"
+          },
+          {
+            "value": "0xa00",
+            "name": "2 Missiles"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Ballistic Weapon",
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xffffcfff",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "Normal"
+          },
+          {
+            "value": "0x1000",
+            "name": "+1"
+          },
+          {
+            "value": "0x2000",
+            "name": "Max"
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Stage Select",
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xfff87fff",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "Off"
+          },
+          {
+            "value": "0x8000",
+            "name": "Stage 1"
+          },
+          {
+            "value": "0x10000",
+            "name": "Stage 2"
+          },
+          {
+            "value": "0x18000",
+            "name": "Stage 3"
+          },
+          {
+            "value": "0x20000",
+            "name": "Stage 4"
+          },
+          {
+            "value": "0x28000",
+            "name": "Stage 5"
+          },
+          {
+            "value": "0x30000",
+            "name": "Stage 6"
+          },
+          {
+            "value": "0x38000",
+            "name": "Stage 7"
+          },
+          {
+            "value": "0x40000",
+            "name": "Stage 8"
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Dip Switches>",
+        "type": "action",
+        "enabled": false
+      },
+      {
+        "id": 27,
+        "name": "Attract Mode Sound",
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfa000000",
+        "mask": "0xffffffdf",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "On"
+          },
+          {
+            "value": "0x20",
+            "name": "Off"
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "name": "No. of Lives",
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfa000000",
+        "mask": "0xfffffcff",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "3"
+          },
+          {
+            "value": "0x100",
+            "name": "5"
+          },
+          {
+            "value": "0x200",
+            "name": "1"
+          },
+          {
+            "value": "0x300",
+            "name": "Infinite"
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "name": "Difficulty",
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfa000000",
+        "mask": "0xfffff3ff",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "Normal"
+          },
+          {
+            "value": "0x400",
+            "name": "Easy"
+          },
+          {
+            "value": "0x800",
+            "name": "Hard"
+          },
+          {
+            "value": "0xc00",
+            "name": "Hardest"
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "name": "Extend",
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfa000000",
+        "mask": "0xffffcfff",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "40/100/60k(E)"
+          },
+          {
+            "value": "0x1000",
+            "name": "60/160/100k(E)"
+          },
+          {
+            "value": "0x2000",
+            "name": "90/240/150k(E)"
+          },
+          {
+            "value": "0x3000",
+            "name": "50k"
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "name": "Allow Continue",
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfa000000",
+        "mask": "0xffff7fff",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "No"
+          },
+          {
+            "value": "0x8000",
+            "name": "Yes"
+          }
+        ]
+      }
+    ]
+  }
+}
