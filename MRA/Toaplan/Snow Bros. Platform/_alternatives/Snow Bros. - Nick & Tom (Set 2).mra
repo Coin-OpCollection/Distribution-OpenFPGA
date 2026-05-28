@@ -1,7 +1,7 @@
 <misterromdescription>
     <name>Snow Bros. - Nick &amp; Tom (Set 2)</name>
     <setname>snowbrosa</setname>
-    <rbf>snowbros</rbf>
+    <rbf>snowbros_mister</rbf>
     <mameversion>0281</mameversion>
     <year>1990</year>
     <manufacturer>Toaplan</manufacturer>
@@ -9,11 +9,14 @@
     <joystick>8-way</joystick>
     <rotation>Horizontal</rotation>
     <region>World</region>
+    <platform>Snow Bros. Platform</platform>
+    <category>Platform</category>
+    <catver>Platform / Run Jump</catver>
 
     <switches default="FF,FF">
         <!-- DSW1 -->
         <dip name="Region" bits="0" ids="Europe,America"/>
-        <!-- <dip name="Screen Flip" bits="1" ids="On,Off"/> -->
+        <dip name="Screen Flip" bits="1" ids="On,Off"/>
         <dip name="Test Mode" bits="2" ids="On,Off"/>
         <dip name="Advertise Sound" bits="3" ids="Off,On"/>
         <dip name="Coin A" bits="4,5" ids="2/3,2/1,1/2,1/1"/>
@@ -26,7 +29,7 @@
         <dip name="Continue Play" bits="15" ids="No,Yes"/>
     </switches>
 
-    <buttons names="Attack,Jump,-,Start,Coin,Pause" default="A,B,X,Y,Start,Select"/>
+    <buttons names="Attack,Jump,-,-,-,-,Start,Coin,Pause" default="A,B,X,Y,L,R,Start,Select,-" count="6"/>
 
     <rom index="1">
         <part>02</part>

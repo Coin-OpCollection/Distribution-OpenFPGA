@@ -9,10 +9,6 @@
       {
         "id": 1,
         "filename": "snowbrosj.rom"
-      },
-      {
-        "id": 2,
-        "filename": "snowbrosj.sav"
       }
     ],
     "memory_writes": [
@@ -22,7 +18,7 @@
       },
       {
         "address": "0xfa000000",
-        "data": "0xffffffff"
+        "data": "0xffbf"
       },
       {
         "address": "0xfb000000",

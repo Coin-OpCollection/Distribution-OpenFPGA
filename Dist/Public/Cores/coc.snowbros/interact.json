@@ -4,7 +4,7 @@
     "variables": [
       {
         "id": 10,
-        "name": "Reset Core",
+        "name": "Soft Reset",
         "type": "action",
         "enabled": true,
         "persist": false,
@@ -20,184 +20,184 @@
         "enabled": false
       },
       {
-        "id": 13,
+        "id": 12,
         "name": "Auto-Fire",
         "type": "list",
         "enabled": true,
         "persist": false,
         "defaultval": 0,
         "address": "0xfb000000",
-        "mask": "0xffffffc3",
+        "mask": "0xfffffff0",
         "options": [
           {
             "value": "0x0",
-            "name": "Default"
+            "name": "Off"
+          },
+          {
+            "value": "0x1",
+            "name": "A - Fastest"
+          },
+          {
+            "value": "0x2",
+            "name": "A - Fast"
+          },
+          {
+            "value": "0x3",
+            "name": "A - Medium"
           },
           {
             "value": "0x4",
-            "name": "Faster"
+            "name": "A - Slow"
+          },
+          {
+            "value": "0x5",
+            "name": "B - Fastest"
+          },
+          {
+            "value": "0x6",
+            "name": "B - Fast"
+          },
+          {
+            "value": "0x7",
+            "name": "B - Medium"
           },
           {
             "value": "0x8",
-            "name": "Fast"
+            "name": "B - Slow"
+          },
+          {
+            "value": "0x9",
+            "name": "A+B - Fastest"
+          },
+          {
+            "value": "0xa",
+            "name": "A+B - Fast"
+          },
+          {
+            "value": "0xb",
+            "name": "A+B - Medium"
           },
           {
             "value": "0xc",
-            "name": "Medium"
-          },
-          {
-            "value": "0x10",
-            "name": "Slow"
+            "name": "A+B - Slow"
           }
         ]
       },
       {
-        "id": 14,
+        "id": 13,
         "name": "Cheats>",
         "type": "action",
         "enabled": false
       },
       {
-        "id": 15,
-        "name": "Starting Floor",
+        "id": 14,
+        "name": "Start Floor",
         "type": "list",
         "enabled": true,
         "persist": false,
         "defaultval": 0,
         "address": "0xfb000000",
-        "mask": "0xfffffc3f",
+        "mask": "0xffffff0f",
         "options": [
           {
             "value": "0x0",
-            "name": "Floor 1"
+            "name": "Off"
+          },
+          {
+            "value": "0x10",
+            "name": "10"
+          },
+          {
+            "value": "0x20",
+            "name": "11"
+          },
+          {
+            "value": "0x30",
+            "name": "20"
           },
           {
             "value": "0x40",
-            "name": "Floor 10 (Boss)"
+            "name": "21"
+          },
+          {
+            "value": "0x50",
+            "name": "30"
+          },
+          {
+            "value": "0x60",
+            "name": "31"
+          },
+          {
+            "value": "0x70",
+            "name": "40"
           },
           {
             "value": "0x80",
-            "name": "Floor 11"
+            "name": "41"
           },
           {
-            "value": "0xc0",
-            "name": "Floor 20 (Boss)"
-          },
-          {
-            "value": "0x100",
-            "name": "Floor 21"
-          },
-          {
-            "value": "0x140",
-            "name": "Floor 30 (Boss)"
-          },
-          {
-            "value": "0x180",
-            "name": "Floor 31"
-          },
-          {
-            "value": "0x1c0",
-            "name": "Floor 40 (Boss)"
-          },
-          {
-            "value": "0x200",
-            "name": "Floor 41"
-          },
-          {
-            "value": "0x240",
-            "name": "Floor 50 (Boss)"
+            "value": "0x90",
+            "name": "50"
           }
         ]
       },
       {
-        "id": 18,
+        "id": 17,
         "name": "Secret Bonus",
-        "type": "list",
+        "type": "check",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xfffffbff",
+        "value": "0x400",
+        "value_off": "0x0"
+      },
+      {
+        "id": 18,
+        "name": "Items Do Not Disappear",
+        "type": "check",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xfffff7ff",
+        "value": "0x800",
+        "value_off": "0x0"
+      },
+      {
+        "id": 19,
+        "name": "Pumpkin Never Appears",
+        "type": "check",
         "enabled": true,
         "persist": false,
         "defaultval": 0,
         "address": "0xfb000000",
         "mask": "0xffffefff",
-        "options": [
-          {
-            "value": "0x0",
-            "name": "Off"
-          },
-          {
-            "value": "0x1000",
-            "name": "On"
-          }
-        ]
-      },
-      {
-        "id": 19,
-        "name": "One Hit Boss",
-        "type": "list",
-        "enabled": true,
-        "persist": false,
-        "defaultval": 0,
-        "address": "0xfb000000",
-        "mask": "0xffffdfff",
-        "options": [
-          {
-            "value": "0x0",
-            "name": "Off"
-          },
-          {
-            "value": "0x2000",
-            "name": "On"
-          }
-        ]
-      },
-      {
-        "id": 21,
-        "name": "No Pumpkin Head",
-        "type": "list",
-        "enabled": true,
-        "persist": false,
-        "defaultval": 0,
-        "address": "0xfb000000",
-        "mask": "0xffff7fff",
-        "options": [
-          {
-            "value": "0x0",
-            "name": "Off"
-          },
-          {
-            "value": "0x8000",
-            "name": "On"
-          }
-        ]
+        "value": "0x1000",
+        "value_off": "0x0"
       },
       {
         "id": 23,
-        "name": "All Powers",
-        "type": "list",
+        "name": "Power Up - All",
+        "type": "check",
         "enabled": true,
         "persist": false,
         "defaultval": 0,
         "address": "0xfb000000",
-        "mask": "0xfffdffff",
-        "options": [
-          {
-            "value": "0x0",
-            "name": "Off"
-          },
-          {
-            "value": "0x20000",
-            "name": "On"
-          }
-        ]
+        "mask": "0xfffeffff",
+        "value": "0x10000",
+        "value_off": "0x0"
       },
       {
-        "id": 24,
+        "id": 35,
         "name": "Dip Switches>",
         "type": "action",
         "enabled": false
       },
       {
-        "id": 27,
-        "name": "Service Mode",
+        "id": 38,
+        "name": "Test Mode",
         "type": "list",
         "enabled": true,
         "persist": true,
@@ -207,16 +207,36 @@
         "options": [
           {
             "value": "0x0",
-            "name": "Screen Test"
+            "name": "On"
           },
           {
             "value": "0x4",
-            "name": "Normal"
+            "name": "Off"
           }
         ]
       },
       {
-        "id": 31,
+        "id": 39,
+        "name": "Advertise Sound",
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 1,
+        "address": "0xfa000000",
+        "mask": "0xfffffff7",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "Off"
+          },
+          {
+            "value": "0x8",
+            "name": "On"
+          }
+        ]
+      },
+      {
+        "id": 42,
         "name": "Game Difficulty",
         "type": "list",
         "enabled": true,
@@ -227,24 +247,24 @@
         "options": [
           {
             "value": "0x0",
-            "name": "D"
+            "name": "Hardest"
           },
           {
             "value": "0x100",
-            "name": "C"
+            "name": "Hard"
           },
           {
             "value": "0x200",
-            "name": "A"
+            "name": "Easy"
           },
           {
             "value": "0x300",
-            "name": "B"
+            "name": "Normal"
           }
         ]
       },
       {
-        "id": 32,
+        "id": 43,
         "name": "Extend",
         "type": "list",
         "enabled": true,
@@ -259,7 +279,7 @@
           },
           {
             "value": "0x400",
-            "name": "100k/200k (E)"
+            "name": "100k/200k(E)"
           },
           {
             "value": "0x800",
@@ -272,8 +292,8 @@
         ]
       },
       {
-        "id": 33,
-        "name": "Hero Count",
+        "id": 44,
+        "name": "Hero Counts",
         "type": "list",
         "enabled": true,
         "persist": true,
@@ -291,7 +311,7 @@
           },
           {
             "value": "0x2000",
-            "name": "5"
+            "name": "1"
           },
           {
             "value": "0x3000",
@@ -300,8 +320,8 @@
         ]
       },
       {
-        "id": 34,
-        "name": "Invulnerability",
+        "id": 45,
+        "name": "Invincibility",
         "type": "list",
         "enabled": true,
         "persist": true,
@@ -316,26 +336,6 @@
           {
             "value": "0x4000",
             "name": "Off"
-          }
-        ]
-      },
-      {
-        "id": 35,
-        "name": "Continue Play",
-        "type": "list",
-        "enabled": true,
-        "persist": true,
-        "defaultval": 1,
-        "address": "0xfa000000",
-        "mask": "0xffff7fff",
-        "options": [
-          {
-            "value": "0x0",
-            "name": "Off"
-          },
-          {
-            "value": "0x8000",
-            "name": "On"
           }
         ]
       }

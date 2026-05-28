@@ -1,7 +1,7 @@
 <misterromdescription>
     <name>Snow Bros. - Nick &amp; Tom (Japan)</name>
     <setname>snowbrosj</setname>
-    <rbf>snowbros</rbf>
+    <rbf>snowbros_mister</rbf>
     <mameversion>0281</mameversion>
     <year>1990</year>
     <manufacturer>Toaplan</manufacturer>
@@ -9,6 +9,9 @@
     <joystick>8-way</joystick>
     <rotation>Horizontal</rotation>
     <region>Japan</region>
+    <platform>Snow Bros. Platform</platform>
+    <category>Platform</category>
+    <catver>Platform / Run Jump</catver>
 
     <switches default="BF,FF">
         <!-- DSW1 -->
@@ -25,7 +28,7 @@
         <dip name="Continue Play" bits="15" ids="No,Yes"/>
     </switches>
 
-    <buttons names="Attack,Jump,-,Start,Coin,Pause" default="A,B,X,Y,Start,Select"/>
+    <buttons names="Shot,Jump,-,-,-,-,Start,Coin,Pause" default="A,B,X,Y,L,R,Start,Select,-" count="6"/>
 
     <rom index="1">
         <part>00</part>

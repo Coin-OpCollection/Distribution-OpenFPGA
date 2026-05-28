@@ -6,7 +6,7 @@
         "type": "default",
         "mappings": [
           {
-            "name": "Attack",
+            "name": "Shot",
             "key": "pad_btn_a",
             "id": 0
           },

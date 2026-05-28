@@ -6,11 +6,11 @@
         "snowbros"
       ],
       "shortname": "snowbros",
-      "description": "Toaplan Snow Bros. Hardware",
+      "description": "Snow Bros. - Nick & Tom FPGA Core",
       "author": "coc",
       "url": "https://coinopcollection.org",
-      "version": "1.0.1",
-      "date_release": "2025-12-26"
+      "version": "1.0.2",
+      "date_release": "2026-05-27"
     },
     "framework": {
       "target_product": "Analogue Pocket",
@@ -27,7 +27,7 @@
     },
     "cores": [
       {
-        "name": "snowbros",
+        "name": "SNOWBROS",
         "filename": "snowbros.br",
         "id": 0
       }
