@@ -1,0 +1,190 @@
+{
+  "interact": {
+    "magic": "APF_VER_1",
+    "variables": [
+      {
+        "id": 10,
+        "name": "Soft Reset",
+        "type": "action",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfd000000",
+        "mask": "0xfffffffe",
+        "value": "0x1"
+      },
+      {
+        "id": 11,
+        "name": "Auto-Fire",
+        "type": "list",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xfffffff0",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "Off"
+          },
+          {
+            "value": "0x1",
+            "name": "A - Fastest"
+          },
+          {
+            "value": "0x2",
+            "name": "A - Fast"
+          },
+          {
+            "value": "0x3",
+            "name": "A - Medium"
+          },
+          {
+            "value": "0x4",
+            "name": "A - Slow"
+          },
+          {
+            "value": "0x5",
+            "name": "B - Fastest"
+          },
+          {
+            "value": "0x6",
+            "name": "B - Fast"
+          },
+          {
+            "value": "0x7",
+            "name": "B - Medium"
+          },
+          {
+            "value": "0x8",
+            "name": "B - Slow"
+          },
+          {
+            "value": "0x9",
+            "name": "A+B - Fastest"
+          },
+          {
+            "value": "0xa",
+            "name": "A+B - Fast"
+          },
+          {
+            "value": "0xb",
+            "name": "A+B - Medium"
+          },
+          {
+            "value": "0xc",
+            "name": "A+B - Slow"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Cheats>",
+        "type": "action",
+        "enabled": false
+      },
+      {
+        "id": 14,
+        "name": "Invincibility",
+        "type": "check",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xffffffdf",
+        "value": "0x20",
+        "value_off": "0x0"
+      },
+      {
+        "id": 16,
+        "name": "Infinite Energy",
+        "type": "check",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xffffff7f",
+        "value": "0x80",
+        "value_off": "0x0"
+      },
+      {
+        "id": 17,
+        "name": "Infinite Rockets",
+        "type": "check",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xfffffeff",
+        "value": "0x100",
+        "value_off": "0x0"
+      },
+      {
+        "id": 27,
+        "name": "Dip Switches>",
+        "type": "action",
+        "enabled": false
+      },
+      {
+        "id": 35,
+        "name": "Sound",
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfa000000",
+        "mask": "0xffffff7f",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "Stereo"
+          },
+          {
+            "value": "0x80",
+            "name": "Mono"
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "name": "Coin Mechanism",
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 1,
+        "address": "0xfa000000",
+        "mask": "0xffff7fff",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "Independent"
+          },
+          {
+            "value": "0x8000",
+            "name": "Common"
+          }
+        ]
+      },
+      {
+        "id": 51,
+        "name": "No. of Players",
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 1,
+        "address": "0xfa000000",
+        "mask": "0xff7fffff",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "4"
+          },
+          {
+            "value": "0x800000",
+            "name": "2"
+          }
+        ]
+      }
+    ]
+  }
+}
