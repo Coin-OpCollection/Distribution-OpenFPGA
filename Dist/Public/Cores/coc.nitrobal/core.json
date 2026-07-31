@@ -1,0 +1,36 @@
+{
+  "core": {
+    "magic": "APF_VER_1",
+    "metadata": {
+      "platform_ids": [
+        "nitrobal"
+      ],
+      "shortname": "nitrobal",
+      "description": "DECO-16 Platform",
+      "author": "coc",
+      "url": "https://coinopcollection.org",
+      "version": "1.0.1",
+      "date_release": "2026-07-29"
+    },
+    "framework": {
+      "target_product": "Analogue Pocket",
+      "version_required": "1.1",
+      "sleep_supported": false,
+      "dock": {
+        "supported": true,
+        "analog_output": false
+      },
+      "hardware": {
+        "link_port": false,
+        "cartridge_adapter": -1
+      }
+    },
+    "cores": [
+      {
+        "name": "NITROBAL",
+        "filename": "nitrobal.br",
+        "id": 0
+      }
+    ]
+  }
+}
