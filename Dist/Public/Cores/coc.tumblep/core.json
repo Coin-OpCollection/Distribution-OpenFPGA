@@ -6,11 +6,11 @@
         "tumblep"
       ],
       "shortname": "tumblep",
-      "description": "Tumble Pop FPGA Core",
+      "description": "DECO-16 Platform",
       "author": "coc",
       "url": "https://coinopcollection.org",
-      "version": "1.0.1",
-      "date_release": "2026-04-01"
+      "version": "1.0.4",
+      "date_release": "2026-07-29"
     },
     "framework": {
       "target_product": "Analogue Pocket",

@@ -1,0 +1,332 @@
+{
+  "interact": {
+    "magic": "APF_VER_1",
+    "variables": [
+      {
+        "id": 10,
+        "name": "Soft Reset",
+        "type": "action",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfd000000",
+        "mask": "0xfffffffe",
+        "value": "0x1"
+      },
+      {
+        "id": 11,
+        "name": "Options>",
+        "type": "action",
+        "enabled": false
+      },
+      {
+        "id": 12,
+        "name": "Auto-Fire",
+        "type": "list",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xfffffff0",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "Off"
+          },
+          {
+            "value": "0x1",
+            "name": "A - Fastest"
+          },
+          {
+            "value": "0x2",
+            "name": "A - Fast"
+          },
+          {
+            "value": "0x3",
+            "name": "A - Medium"
+          },
+          {
+            "value": "0x4",
+            "name": "A - Slow"
+          },
+          {
+            "value": "0x5",
+            "name": "B - Fastest"
+          },
+          {
+            "value": "0x6",
+            "name": "B - Fast"
+          },
+          {
+            "value": "0x7",
+            "name": "B - Medium"
+          },
+          {
+            "value": "0x8",
+            "name": "B - Slow"
+          },
+          {
+            "value": "0x9",
+            "name": "A+B - Fastest"
+          },
+          {
+            "value": "0xa",
+            "name": "A+B - Fast"
+          },
+          {
+            "value": "0xb",
+            "name": "A+B - Medium"
+          },
+          {
+            "value": "0xc",
+            "name": "A+B - Slow"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Cheats>",
+        "type": "action",
+        "enabled": false
+      },
+      {
+        "id": 21,
+        "name": "Stage Select",
+        "type": "list",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xffff87ff",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "Off"
+          },
+          {
+            "value": "0x800",
+            "name": "Stage 1"
+          },
+          {
+            "value": "0x1000",
+            "name": "Stage 2"
+          },
+          {
+            "value": "0x1800",
+            "name": "Stage 3"
+          },
+          {
+            "value": "0x2000",
+            "name": "Stage 4"
+          },
+          {
+            "value": "0x2800",
+            "name": "Stage 5"
+          },
+          {
+            "value": "0x3000",
+            "name": "Stage 6"
+          },
+          {
+            "value": "0x3800",
+            "name": "Stage 7"
+          },
+          {
+            "value": "0x4000",
+            "name": "Stage 8"
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Invincibility",
+        "type": "check",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xffff7fff",
+        "value": "0x8000",
+        "value_off": "0x0"
+      },
+      {
+        "id": 23,
+        "name": "Infinite Bombs",
+        "type": "check",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xfffeffff",
+        "value": "0x10000",
+        "value_off": "0x0"
+      },
+      {
+        "id": 24,
+        "name": "Select Weapon",
+        "type": "list",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xfff9ffff",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "Default"
+          },
+          {
+            "value": "0x20000",
+            "name": "Vulcan"
+          },
+          {
+            "value": "0x40000",
+            "name": "Laser"
+          },
+          {
+            "value": "0x60000",
+            "name": "Break Vulcan"
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Select Sub Weapon",
+        "type": "list",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xffe7ffff",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "Default"
+          },
+          {
+            "value": "0x80000",
+            "name": "Missile"
+          },
+          {
+            "value": "0x100000",
+            "name": "Homing"
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Max Shot Power",
+        "type": "check",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xfdffffff",
+        "value": "0x2000000",
+        "value_off": "0x0"
+      },
+      {
+        "id": 29,
+        "name": "Max Sub Weapon Power",
+        "type": "check",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xfbffffff",
+        "value": "0x4000000",
+        "value_off": "0x0"
+      },
+      {
+        "id": 32,
+        "name": "Dip Switches>",
+        "type": "action",
+        "enabled": false
+      },
+      {
+        "id": 37,
+        "name": "No. of Plane",
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 3,
+        "address": "0xfa000000",
+        "mask": "0xfffffcff",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "5"
+          },
+          {
+            "value": "0x100",
+            "name": "2"
+          },
+          {
+            "value": "0x200",
+            "name": "1"
+          },
+          {
+            "value": "0x300",
+            "name": "3"
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "name": "Game Difficulty",
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 3,
+        "address": "0xfa000000",
+        "mask": "0xfffff3ff",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "Hardest"
+          },
+          {
+            "value": "0x400",
+            "name": "Hard"
+          },
+          {
+            "value": "0x800",
+            "name": "Easy"
+          },
+          {
+            "value": "0xc00",
+            "name": "Normal"
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "name": "Bonus Plane",
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 3,
+        "address": "0xfa000000",
+        "mask": "0xffffcfff",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "250,000 Only"
+          },
+          {
+            "value": "0x1000",
+            "name": "Every 300,000"
+          },
+          {
+            "value": "0x2000",
+            "name": "Every 100,000"
+          },
+          {
+            "value": "0x3000",
+            "name": "Every 150,000"
+          }
+        ]
+      }
+    ]
+  }
+}
