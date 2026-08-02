@@ -1,0 +1,45 @@
+{
+  "instance": {
+    "magic": "APF_VER_1",
+    "variant_select": {
+      "id": 0,
+      "select": false
+    },
+    "data_slots": [
+      {
+        "id": 1,
+        "filename": "wizdfireu.rom"
+      }
+    ],
+    "memory_writes": [
+      {
+        "address": "0xf9000000",
+        "data": "0x0"
+      },
+      {
+        "address": "0xfa000000",
+        "data": "0x7fff"
+      },
+      {
+        "address": "0xfb000000",
+        "data": "0x0"
+      },
+      {
+        "address": "0xfb000004",
+        "data": "0x0"
+      },
+      {
+        "address": "0xfb000008",
+        "data": "0x0"
+      },
+      {
+        "address": "0xfb00000c",
+        "data": "0x0"
+      },
+      {
+        "address": "0xfc000000",
+        "data": "0x2"
+      }
+    ]
+  }
+}
