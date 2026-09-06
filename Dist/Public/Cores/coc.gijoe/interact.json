@@ -84,20 +84,32 @@
         "enabled": false
       },
       {
-        "id": 14,
-        "name": "Invincibility",
-        "type": "check",
+        "id": 13,
+        "name": "Stage Select",
+        "type": "list",
         "enabled": true,
         "persist": false,
         "defaultval": 0,
         "address": "0xfb000000",
-        "mask": "0xffffffdf",
-        "value": "0x20",
-        "value_off": "0x0"
+        "mask": "0xffffffcf",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "Mission 1"
+          },
+          {
+            "value": "0x10",
+            "name": "Mission 2"
+          },
+          {
+            "value": "0x20",
+            "name": "Mission 3"
+          }
+        ]
       },
       {
-        "id": 16,
-        "name": "Infinite Energy",
+        "id": 15,
+        "name": "Invincibility",
         "type": "check",
         "enabled": true,
         "persist": false,
@@ -109,24 +121,36 @@
       },
       {
         "id": 17,
+        "name": "Infinite Energy",
+        "type": "check",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xfffffdff",
+        "value": "0x200",
+        "value_off": "0x0"
+      },
+      {
+        "id": 18,
         "name": "Infinite Rockets",
         "type": "check",
         "enabled": true,
         "persist": false,
         "defaultval": 0,
         "address": "0xfb000000",
-        "mask": "0xfffffeff",
-        "value": "0x100",
+        "mask": "0xfffffbff",
+        "value": "0x400",
         "value_off": "0x0"
       },
       {
-        "id": 27,
+        "id": 28,
         "name": "Dip Switches>",
         "type": "action",
         "enabled": false
       },
       {
-        "id": 35,
+        "id": 36,
         "name": "Sound",
         "type": "list",
         "enabled": true,
@@ -146,7 +170,7 @@
         ]
       },
       {
-        "id": 43,
+        "id": 44,
         "name": "Coin Mechanism",
         "type": "list",
         "enabled": true,
@@ -166,7 +190,7 @@
         ]
       },
       {
-        "id": 51,
+        "id": 52,
         "name": "No. of Players",
         "type": "list",
         "enabled": true,
