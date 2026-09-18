@@ -9,10 +9,6 @@
       {
         "id": 1,
         "filename": "twincobru.rom"
-      },
-      {
-        "id": 2,
-        "filename": "twincobru.sav"
       }
     ],
     "memory_writes": [
@@ -22,7 +18,7 @@
       },
       {
         "address": "0xfa000000",
-        "data": "0x00000000"
+        "data": "0x0"
       },
       {
         "address": "0xfb000000",

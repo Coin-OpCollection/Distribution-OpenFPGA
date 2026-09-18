@@ -3,13 +3,13 @@
     "magic": "APF_VER_1",
     "metadata": {
       "platform_ids": [
-        "twincobr"
+        "wardner"
       ],
-      "shortname": "twincobr",
+      "shortname": "wardner",
       "description": "Toaplan Twin Cobra Hardware",
       "author": "coc",
       "url": "https://coinopcollection.org",
-      "version": "1.0.4",
+      "version": "1.0.0",
       "date_release": "2026-09-18"
     },
     "framework": {
@@ -27,8 +27,8 @@
     },
     "cores": [
       {
-        "name": "TWINCOBR",
-        "filename": "twincobr.br",
+        "name": "WARDNER",
+        "filename": "wardner.br",
         "id": 0
       }
     ]

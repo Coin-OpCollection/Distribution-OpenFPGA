@@ -21,17 +21,6 @@
         ],
         "size_maximum": "0x4000000",
         "address": "0x00000000"
-      },
-      {
-        "name": "NVRAM",
-        "id": 2,
-        "required": false,
-        "parameters": "0x100",
-        "extensions": [
-          "sav"
-        ],
-        "address": "0xf7000000",
-        "nonvolatile": true
       }
     ]
   }

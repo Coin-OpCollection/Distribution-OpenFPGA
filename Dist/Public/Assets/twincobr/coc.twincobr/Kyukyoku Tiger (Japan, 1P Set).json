@@ -9,10 +9,6 @@
       {
         "id": 1,
         "filename": "ktigera.rom"
-      },
-      {
-        "id": 2,
-        "filename": "ktigera.sav"
       }
     ],
     "memory_writes": [
@@ -22,7 +18,7 @@
       },
       {
         "address": "0xfa000000",
-        "data": "0x00000000"
+        "data": "0x8001"
       },
       {
         "address": "0xfb000000",
@@ -42,7 +38,7 @@
       },
       {
         "address": "0xfc000000",
-        "data": "0x1"
+        "data": "0x0"
       }
     ]
   }

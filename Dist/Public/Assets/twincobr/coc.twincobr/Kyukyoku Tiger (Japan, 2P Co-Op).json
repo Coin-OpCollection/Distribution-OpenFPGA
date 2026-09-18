@@ -8,7 +8,7 @@
     "data_slots": [
       {
         "id": 1,
-        "filename": "twincobr.rom"
+        "filename": "ktiger.rom"
       }
     ],
     "memory_writes": [
@@ -18,7 +18,7 @@
       },
       {
         "address": "0xfa000000",
-        "data": "0x0"
+        "data": "0x8000"
       },
       {
         "address": "0xfb000000",
@@ -38,7 +38,7 @@
       },
       {
         "address": "0xfc000000",
-        "data": "0x2"
+        "data": "0x0"
       }
     ]
   }
