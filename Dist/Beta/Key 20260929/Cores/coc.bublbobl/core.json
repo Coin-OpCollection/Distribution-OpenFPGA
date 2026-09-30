@@ -3,14 +3,15 @@
     "magic": "APF_VER_1",
     "metadata": {
       "platform_ids": [
-        "kikikai"
+        "bublbobl",
+        "coinopkey"
       ],
-      "shortname": "kikikai",
-      "description": "KiKi KaiKai",
+      "shortname": "bublbobl",
+      "description": "Bubble Bobble",
       "author": "coc",
       "url": "https://coinopcollection.org",
-      "version": "1.0.1",
-      "date_release": "2026-09-21"
+      "version": "1.0.0",
+      "date_release": "2026-09-26"
     },
     "framework": {
       "target_product": "Analogue Pocket",
@@ -27,8 +28,8 @@
     },
     "cores": [
       {
-        "name": "KIKIKAI",
-        "filename": "kikikai.br",
+        "name": "BUBLBOBL",
+        "filename": "bublbobl.br",
         "id": 0
       }
     ]
