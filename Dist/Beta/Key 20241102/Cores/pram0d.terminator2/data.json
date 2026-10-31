@@ -38,7 +38,7 @@
           "id": 37,
           "required": true,
           "parameters": "0x1000080",
-          "filename": "coinop.key",
+          "filename": "coinop_legacy.key",
           "extensions": [
             "key"
           ],
